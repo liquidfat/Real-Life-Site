@@ -1,0 +1,263 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/water.gif);
+}
+
+.page {
+  width: 75%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  border: ridge 10px
+}
+
+h2{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: red;
+    font-size: 2vw;
+    margin: 15px;
+    margin-bottom: 5%
+}
+
+p{
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top:3%;
+}
+
+
+.title{
+    width: 30%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+/* ------------------ LAYOUT ----------------------- */
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.col20{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col60{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------------ NAVIGATION ----------------------- */
+#navtable{
+    width: 85%;
+    background-color: lightgray;
+    height: 100%;
+    margin: 10%;
+}
+
+#navheading{
+    color: red;
+    font-size: 2vw;
+    font-family: sans-serif;
+    text-decoration:underline;
+    margin: 4%;
+}
+
+#passheading{
+    color: red;
+    font-size: 2vw;
+    font-family: sans-serif;
+    text-decoration:underline;
+    margin: 4%;
+}
+
+#navtable a{
+    color: blue;
+    font-size: 1.5vw;
+}
+
+#navtable li{
+    margin-top: 38%;
+    margin-bottom: 38%;
+}
+
+#adminlink{
+    color: chartreuse;
+    font-size: 1vw;
+}
+
+.col20 a:hover {
+  background-color: yellow;
+}
+
+/* ------------------ HOME IMAGES----------------------- */
+.doorway{
+    width: 60%;
+    height: auto;
+}
+
+.ads{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* ------------------ INVENTORY ----------------------- */
+.bracket{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.password1{
+    display: none;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.password2{
+    display: none;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.password3{
+    display: none;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.password4{
+    display: none;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.qmark1{
+    display: block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.qmark2{
+    display: block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.qmark3{
+    display: block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.qmark4{
+    display: block;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ------------------ CONTACT ----------------------- */
+#contacthead{
+    margin-top: 10%;
+    text-align: center;
+}
+
+#contactlink{
+    border:outset 4px;
+    padding: 5% 10%;
+    font-size: 1.7vw;
+}
+
+#contactpic{
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+/* ------------------ LESSONS----------------------- */
+#lesson1{
+    background-image: url(../images/brain.gif);
+    border:outset 4px;
+    padding: 2% 20%;
+    margin-top: 20%;
+}
+
+#lesson2{
+    background-image: url(../images/planet.gif);
+    border:outset 4px;
+    padding: 2% 20%;
+    margin-top: 20%;
+}
+
+#lesson3{
+    background-image: url(../images/lesson3.gif);
+    border:outset 4px;
+    padding: 2% 20%;
+    margin-top: 20%;
+}
+
+#lesson1 p:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+#lesson2 p:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+#lesson3 p:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+/* ------------------ ADMIN ----------------------- */
+#mj{
+    width: 70%
+}
+
+#mj2{
+    width: 50%;
+    margin-top: 5%;
+}
+
+
+
+/* ------------------ ADMIN ----------------------- */
+#adminhead{
+    color: chartreuse;
+    margin-top: 10%;
+    text-align: center;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#adminpic{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+/* ------------------ HIDDEN PAGE ----------------------- */
+#hiddenbody{
+    background-image: url(../images/heehee.gif);
+    
+}
