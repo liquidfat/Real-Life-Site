@@ -269,6 +269,7 @@ button{
 
 #pass1link{
     color: black;
+    font-size: 1vw;
 }
 
 /* ------------------ FORUM----------------------- */
@@ -325,6 +326,10 @@ button{
 
 .altstyle{
     color: white;
+}
+
+#buttonspace{
+    margin-bottom: 10%
 }
 
 
