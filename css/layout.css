@@ -96,7 +96,7 @@ p{
 #adminlink{
     color: chartreuse;
     font-size: 1vw;
-}
+} 
 
 .col20 a:hover {
   background-color: yellow;
@@ -106,6 +106,17 @@ p{
 .doorway{
     width: 60%;
     height: auto;
+    cursor: pointer;
+}
+
+.doorway-animate {
+    animation: grow 39s ease-in forwards;
+}
+
+@keyframes grow {
+  to { transform: scale(10);
+      filter: brightness(0) invert(1);
+    }           
 }
 
 .ads{
@@ -230,7 +241,23 @@ p{
   color: black;
 }
 
-/* ------------------ ADMIN ----------------------- */
+button{
+    width: 100%;
+    background-color: lightgray;
+    color: blue;
+    cursor: pointer;
+}
+
+#answers{
+    background-image: url(../images/brain.gif);
+    padding: 25%;
+}
+
+#question{
+    text-align: center;
+}
+
+/* ------------------ ABOUT----------------------- */
 #mj{
     width: 70%
 }
@@ -240,6 +267,65 @@ p{
     margin-top: 5%;
 }
 
+#pass1link{
+    color: black;
+}
+
+/* ------------------ FORUM----------------------- */
+#forumtable{
+    background-color: purple;
+    border: outset 4px;
+    width: 80%;
+}
+
+.forumnames{
+    background-color: gray;
+}
+
+.content{
+    color: white;
+}
+
+.contenthead{
+    width: 80%;
+}
+
+.contentimg{
+    width: 100px;
+    height: 100px;
+}
+
+.name{
+    width: 10%;
+    color: white;
+}
+
+.date{
+    width: 10%;
+    color: white;
+}
+
+#tablecontainer{
+  margin-top: 10%;
+  height: 80vh;
+  overflow-y: auto; 
+  overflow-x: hidden;  
+}
+
+/* ------------------ RESOURCES----------------------- */
+.downloadlink{
+    color: hotpink;
+    font-size: 1vw;
+    margin-bottom: 2%;
+}
+
+.resourceimg{
+    width: 40%;
+}
+
+.altstyle{
+    color: white;
+}
 
 
 /* ------------------ ADMIN ----------------------- */
@@ -259,5 +345,34 @@ p{
 /* ------------------ HIDDEN PAGE ----------------------- */
 #hiddenbody{
     background-image: url(../images/heehee.gif);
-    
 }
+
+.pagesecret {
+  width: 75%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  border: ridge 10px greenyellow;
+  background-image: url(../images/paper.jpg);
+}
+
+.secrettext{
+    color: red;
+    font-size: 2vw;
+}
+
+.secretimg{
+    width: 100%;
+}
+
+/* ------------------ BODY END ----------------------- */
+#bodyend{
+    background-image: none;
+}
+
+#endimg{
+    display: flex;
+    margin-top: 30vh;
+}
+
+

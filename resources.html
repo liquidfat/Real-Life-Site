@@ -8,8 +8,6 @@
     </head>
     <body>
         
-        <script src="js/task-track.js"></script>
-        
         <div class="page">
             
             <div class="row">
@@ -25,7 +23,6 @@
                           <li><a href=index.html>Home</a></li>
                             <li><a href=about.html>About</a></li>
                           <li><a href=lessons.html>Lessons</a></li>
-                          <li><a href=newsletter.html>Newsletter</a></li>
                           <li><a href=forum.html>Forum</a></li>
                           <li><a style="color: purple" href=resources.html>Resources</a></li>
                           <li><a href=contact.html>Contact</a></li>
@@ -35,6 +32,51 @@
                 </div>
                 
                 <div class="col60">
+                    
+                    <h2>Images</h2>
+                    
+                    <img class="resourceimg" src="images/mjposter.png">
+                    <a class="downloadlink" href="images/mjposter.png" download>Dangerous Tour</a>
+                    
+                    <p>load error - gsdfv</p>
+                    <a class="downloadlink" href="images/gsdfv.png" download>gsdfv</a>
+                    
+                     <img class="resourceimg" src="images/nervemap.jpg">
+                    <a class="downloadlink" href="images/mjposter.png" download>Nerve Map</a>
+                    
+                     <img class="resourceimg" src="images/founder.gif">
+                    <a class="downloadlink" href="images/mjposter.png" download>Founder Gif</a>
+                    
+                    <p>load error - mfhifc</p>
+                    <a class="downloadlink" href="images/mfhifc.png" download>mfhifc</a>
+                    
+                    <p>load error -juyjd</p>
+                    <a class="downloadlink" href="images/juyjd.png" download>juyjd</a>
+                    
+                     <img class="resourceimg" src="images/nervemap2.jpg">
+                    <a class="downloadlink" href="images/mjposter.png" download>Nerves 2</a>
+                    
+                    <p>load error - afsfcc</p>
+                    <a class="downloadlink" href="images/afsfcc.png" download>afsfcc</a>
+                    
+                    
+                    <h2>Bonus Resource</h2>
+                    <input type="password" id="password">
+                    <button onclick="checkPassword()">Enter</button>
+
+                    <script>
+                        function checkPassword() {
+                          const correctPassword = "7297";
+
+                          const userInput = document.getElementById("password").value;
+
+                          if (userInput === correctPassword) {
+                            window.location.href = "pass4page.html";
+                          } else {
+                            alert("Incorrect password");
+                          }
+                        }
+                    </script>
                     
                 </div>
                 
@@ -60,6 +102,9 @@
             </div>
 
             </div>
+        
+        <script src="js/passreveal.js"></script>
+        <script src="js/tasktrack.js"></script>
     
     </body>
 </html>

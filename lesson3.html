@@ -8,8 +8,6 @@
     </head>
     <body>
         
-        <script src="js/task-track.js"></script>
-        
         <div class="page">
             
             <div class="row">
@@ -25,7 +23,6 @@
                           <li><a href=index.html>Home</a></li>
                           <li><a href=about.html>About</a></li>
                           <li><a style="color: purple" href=lessons.html>Lessons</a></li>
-                          <li><a href=newsletter.html>Newsletter</a></li>
                           <li><a href=forum.html>Forum</a></li>
                           <li><a href=resources.html>Resources</a></li>
                           <li><a href=contact.html>Contact</a></li>
@@ -37,6 +34,18 @@
                 <div class="col60">
                     
                     
+                    <h2 id="question"></h2>
+
+                    <div id="answers"></div>
+
+                    <p id="feedback"></p>
+                    
+                    <!-- Auto complete buttons for testing
+                    <button onclick="completeTask('quiz')">Finish Quiz</button>
+                    <button onclick="completeTask('task2')">Finish Task 2</button>
+                    <button onclick="completeTask('task3')">Finish Task 3</button>
+                    -->
+
                     <a href=lessons.html>Back to Lessons page</a>
                     
                 </div>
@@ -63,6 +72,10 @@
             </div>
 
             </div>
+        
+        <script src="js/quiz.js"></script>
+        <script src="js/passreveal.js"></script>
+        <script src="js/tasktrack.js"></script>
     
     </body>
 </html>

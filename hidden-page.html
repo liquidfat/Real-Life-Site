@@ -7,51 +7,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
     <body id="hiddenbody">
-        <div class="page">
+        <div class="pagesecret">
             
             <div class="row">
-                <a href="index.html"> <img class="title" src="images/LOGO.png"></a>
+                <h1>Diary Of MJ</h1>
             </div>
             
             <div class="row">
                 
                 <div class="col20">
-                    <nav id="navtable">
-                        <h3 id="navheading">Learnings</h3>
-                        <ul>
-                          <li><a href=index.html>Home</a></li>
-                          <li><a href=about.html>About</a></li>
-                          <li><a href=lessons.html>Lessons</a></li>
-                          <li><a href=newsletter.html>Newsletter</a></li>
-                          <li><a href=forum.html>Forum</a></li>
-                          <li><a href=resources.html>Resources</a></li>
-                          <li><a href=contact.html>Contact</a></li>
-                        </ul>
-                    </nav>
-                    <p><a id="adminlink" href=admin.html>admin access</a></p>
-                </div>
-                
-                <div class="col60">
                    
                 </div>
                 
+                
+                <div class="col60">
+                    
+                    <p class="secrettext">asdasdasdasdasd</p>
+                    
+                    <img class="secretimg" src="images/mj%20masks.jpg">
+                    
+                    <a href="index.html" onclick="unlockDoor()">
+                        <img  src="images/key.gif">
+                    </a> 
+                    
+                    <script>
+                        function unlockDoor() {
+                            localStorage.setItem("doorUnlocked", "true");
+                        }
+                     </script>
+
+                </div>
+                
+                
                 <div class="col20">
-                    <h3 id="passheading">Sublime Pass</h3>
-                    <img class="bracket" src="images/bracket1.png">
                     
-                    <img class="password1" src="images/3gif.gif">
-                    <img class="qmark1" src="images/qmark.gif">
-                    
-                    <img class="password2" src="images/7gif.gif">
-                    <img class="qmark2" src="images/qmark.gif">
-                    
-                    <img class="password3" src="images/2gif.gif">
-                    <img class="qmark3" src="images/qmark.gif">
-                    
-                    <img class="password4" src="images/5gif.gif">
-                    <img class="qmark4" src="images/qmark.gif">
-                    
-                    <img class="bracket" src="images/bracket2.png">
                 </div>
             
             </div>
