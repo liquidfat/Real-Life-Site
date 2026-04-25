@@ -1,3 +1,4 @@
+//list of questions and answers
 const quiz = [
   { q: "What is the middle name of our founder?", a: ["Jamal", "Jackson", "Joseph"], correct: 2 },
   { q: "What year was Real Life founded?", a: ["1988", "1998", "1992"], correct: 0 },
@@ -21,18 +22,21 @@ function load() {
     const btn = document.createElement("button");
     btn.textContent = text;
 
+    //check if answer is right
     btn.onclick = function () {
   if (index === quiz[i].correct) {
     i++;
 
+    //when all questions are complete
     if (i === quiz.length) {
       document.getElementById("answers").innerHTML = "";
       completeTask("quiz");
-      window.location.href = "lessons.html";
+      window.location.href = "lessons.html";//send back to lessons page
     } else {
-      load();
+      load();//otherwise go to next question
     }
 
+    //feedback for wrong answer
   } else {
     document.getElementById("feedback").textContent = "Wrong answer! Starting over";
     i = 0; 

@@ -1,3 +1,4 @@
+//track whats revealed
 const items = {
   password1: false,
   password4: false
@@ -11,13 +12,15 @@ function loadItems() {
     }
   }
 }
-
+ 
+//mark the numbers as revealed and save to storage
 function revealItem(itemName) {
   items[itemName] = true;
   localStorage.setItem(itemName, "true");
   checkItems();
 }
 
+//show numbers and hife qmarks
 function checkItems() {
   for (let item in items) {
     if (items[item]) {
@@ -34,11 +37,13 @@ function checkItems() {
   }
 }
 
+//reset for testing
 function resetPass(itemName) {
   localStorage.removeItem(itemName);
   location.reload();
 }
 
+//load saved progress
 document.addEventListener("DOMContentLoaded", () => {
   loadItems();
   checkItems();

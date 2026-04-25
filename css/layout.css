@@ -106,7 +106,6 @@ p{
 .doorway{
     width: 60%;
     height: auto;
-    cursor: pointer;
 }
 
 .doorway-animate {
