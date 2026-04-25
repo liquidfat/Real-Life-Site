@@ -35,8 +35,8 @@ function load() {
 
   } else {
     document.getElementById("feedback").textContent = "Wrong answer! Starting over";
-    i = 0; // reset quiz index
-    setTimeout(load, 1000); // delay between feedback and reset
+    i = 0; 
+    setTimeout(load, 1000); //delay between failure text and reset
   }
 };
 

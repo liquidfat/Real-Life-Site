@@ -17,7 +17,6 @@ function completeTask(taskName) {
   tasks[taskName] = true;
   window.location.href = "lessons.html";
 
-  //save to browser
   localStorage.setItem(taskName, true);
 
   checkAllTasks();
@@ -34,11 +33,3 @@ function checkAllTasks() {
 
 loadTasks();
 checkAllTasks();
-
-// Reset progress for easier testing
-function resetTasks() {
-  localStorage.removeItem("quiz");
-  localStorage.removeItem("task2");
-  localStorage.removeItem("task3");
-  location.reload();
-}
